@@ -28,7 +28,8 @@ public class MenuItem extends ItemStack {
 		im.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
 		List<String> lore = new ArrayList<String>();
 		lore.add("");
-		lore.add(ChatColor.GREEN + "> Click to " + action);
+		lore.add("");
+		lore.add(ChatColor.WHITE + "> 点击图标进入" + action);
 		im.setLore(lore);
 		setItemMeta(im);
 		setDurability((short) durability);
